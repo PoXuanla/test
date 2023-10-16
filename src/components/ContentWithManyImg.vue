@@ -1,10 +1,10 @@
 <template>
+  <header style="margin-bottom: 5px">
+    <p>我好像</p>
+  </header>
   <div>
     <div style="display: flex; align-items: center; gap: 10px">
-      <img
-        style="border-radius: 50%; width: 15px; height: 15px"
-        src="./assets/logo.svg"
-      />
+      <div style="width: 30px; height: 30px; border: 1px solid black"></div>
       <div>梁實秋</div>
       <div>2022/12/05</div>
     </div>

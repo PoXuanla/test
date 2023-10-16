@@ -31,13 +31,8 @@ const posts = ref([
 <template>
   <template v-for="post in posts">
     <div class="container">
-      <header style="margin-bottom: 5px">
-        <p>我好像</p>
-      </header>
-      <!-- Content -->
       <ManyImgContent v-if="post.postImg.length > 1" :post="post" />
       <OneImgContent v-else :post="post"></OneImgContent>
-      
     </div>
   </template>
 </template>
