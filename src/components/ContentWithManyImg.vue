@@ -4,7 +4,14 @@
   </header>
   <div>
     <div style="display: flex; align-items: center; gap: 10px">
-      <div style="width: 30px; height: 30px; border: 1px solid black"></div>
+      <div
+        style="
+          width: 30px;
+          height: 30px;
+          border: 1px solid black;
+          background-color: black;
+        "
+      ></div>
       <div>梁實秋</div>
       <div>2022/12/05</div>
     </div>
@@ -13,20 +20,38 @@
     <!-- 圖片 -->
     <div style="display: flex; gap: 15px">
       <div
-        style="width: 50px; height: 50px; border: 1px solid black; flex: 1"
+        style="
+          width: 50px;
+          height: 50px;
+          border: 1px solid black;
+          flex: 1;
+          background-color: black;
+        "
       ></div>
       <div
-        style="width: 50px; height: 50px; border: 1px solid black; flex: 1"
+        style="
+          width: 50px;
+          height: 50px;
+          border: 1px solid black;
+          flex: 1;
+          background-color: black;
+        "
       ></div>
       <div
-        style="width: 50px; height: 50px; border: 1px solid black; flex: 1"
+        style="
+          width: 50px;
+          height: 50px;
+          border: 1px solid black;
+          flex: 1;
+          background-color: black;
+        "
       ></div>
     </div>
   </div>
   <!-- 標籤與其他 -->
   <div>
     <div style="display: flex; gap: 10px; flex-wrap: wrap">
-      <p>標籤一</p>
+      <p style="background-color: yellow;">標籤一</p>
       <!-- <p>標籤二</p>
         <p>標籤二</p> <p>標籤二</p> <p>標籤二</p> <p>標籤二</p> <p>標籤二</p> <p>標籤二</p> <p>標籤二</p> <p>標籤二</p> -->
       <div>點贊收藏評論</div>
